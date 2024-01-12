@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Nunito+Sans:opsz,wght@6..12,800&family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+body {
+  background-color: #000;
+  color: white;
+  padding-top: 56px;
+  font-family: "Kanit", "Nunito Sans";
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.navbar a.nav-link {
+  /* color: #fff; */
+  color: #ff4500;
+}
+
+.navbar a.nav-link:hover {
+  color: whitesmoke;
+}
+
+
+.footer-section {
+  background-color: #333; 
+  color: orangered; 
+  padding: 5px;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff; 
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer p {
+  margin-bottom: 2px;
+}
+
+.contact-link {
+  color: #fff; 
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+}

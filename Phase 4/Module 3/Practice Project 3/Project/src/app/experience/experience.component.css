@@ -1,0 +1,13 @@
+.experiences-section h1 {
+  color: #007bff;
+  font-size: 52px;
+  text-align: left;
+  flex: 1;
+  align-items: center;
+}
+
+.card {
+  background-color: #333;
+  color: #fff;
+  margin-bottom: 20px;
+}

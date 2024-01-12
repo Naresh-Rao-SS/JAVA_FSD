@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-12T14:44:07 IST" name="Suite" finished-at="2024-01-12T14:44:52 IST" duration-ms="44654">
+    <groups>
+      <group name="Brand">
+        <method signature="Group_Brand.testNike()[pri:0, instance:Perform_All_Test_Annotations.Group_Brand@67c33749]" name="testNike" class="Perform_All_Test_Annotations.Group_Brand"/>
+        <method signature="Group_Brand.testPuma()[pri:0, instance:Perform_All_Test_Annotations.Group_Brand@67c33749]" name="testPuma" class="Perform_All_Test_Annotations.Group_Brand"/>
+      </group> <!-- Brand -->
+      <group name="virat">
+        <method signature="Group_Brand.testPuma()[pri:0, instance:Perform_All_Test_Annotations.Group_Brand@67c33749]" name="testPuma" class="Perform_All_Test_Annotations.Group_Brand"/>
+      </group> <!-- virat -->
+      <group name="ronaldo">
+        <method signature="Group_Brand.testNike()[pri:0, instance:Perform_All_Test_Annotations.Group_Brand@67c33749]" name="testNike" class="Perform_All_Test_Annotations.Group_Brand"/>
+        <method signature="Group_Ambassador.testRonaldo()[pri:0, instance:Perform_All_Test_Annotations.Group_Ambassador@47d9a273]" name="testRonaldo" class="Perform_All_Test_Annotations.Group_Ambassador"/>
+      </group> <!-- ronaldo -->
+    </groups>
+    <test started-at="2024-01-12T14:44:07 IST" name="Ambassador" finished-at="2024-01-12T14:44:15 IST" duration-ms="8546">
+      <class name="Perform_All_Test_Annotations.Group_Ambassador">
+        <test-method signature="testRonaldo()[pri:0, instance:Perform_All_Test_Annotations.Group_Ambassador@47d9a273]" started-at="2024-01-12T14:44:07 IST" name="testRonaldo" finished-at="2024-01-12T14:44:15 IST" duration-ms="8497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRonaldo -->
+      </class> <!-- Perform_All_Test_Annotations.Group_Ambassador -->
+    </test> <!-- Ambassador -->
+    <test started-at="2024-01-12T14:44:07 IST" name="brand" finished-at="2024-01-12T14:44:52 IST" duration-ms="44654">
+      <class name="Perform_All_Test_Annotations.Group_Brand">
+        <test-method signature="testNike()[pri:0, instance:Perform_All_Test_Annotations.Group_Brand@67c33749]" started-at="2024-01-12T14:44:07 IST" name="testNike" finished-at="2024-01-12T14:44:28 IST" duration-ms="21276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNike -->
+        <test-method signature="testPuma()[pri:0, instance:Perform_All_Test_Annotations.Group_Brand@67c33749]" started-at="2024-01-12T14:44:28 IST" name="testPuma" finished-at="2024-01-12T14:44:52 IST" duration-ms="23336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPuma -->
+      </class> <!-- Perform_All_Test_Annotations.Group_Brand -->
+    </test> <!-- brand -->
+  </suite> <!-- Suite -->
+</testng-results>

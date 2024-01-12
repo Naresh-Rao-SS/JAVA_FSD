@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" name="brand(failed)">
+    <groups>
+      <run>
+        <include name="virat"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Perform_All_Test_Annotations.Group_Brand">
+        <methods>
+          <include name="testPuma"/>
+        </methods>
+      </class> <!-- Perform_All_Test_Annotations.Group_Brand -->
+    </classes>
+  </test> <!-- brand(failed) -->
+  <test thread-count="2" name="Ambassador(failed)">
+    <groups>
+      <run>
+        <include name="ronaldo"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Perform_All_Test_Annotations.Group_Ambassador">
+        <methods>
+          <include name="testRonaldo"/>
+        </methods>
+      </class> <!-- Perform_All_Test_Annotations.Group_Ambassador -->
+    </classes>
+  </test> <!-- Ambassador(failed) -->
+</suite> <!-- Failed suite [Suite] -->
